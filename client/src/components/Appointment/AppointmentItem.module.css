@@ -1,0 +1,30 @@
+h3,
+h4 {
+  letter-spacing: 2px;
+}
+
+.card {
+  box-shadow: var(--dark-shadow);
+
+  width: 320px;
+  /* height: 250px; */
+}
+
+.card h4 {
+  margin-bottom: 0.25rem;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    display: grid;
+    grid-template-rows: 60px auto auto auto;
+  }
+}

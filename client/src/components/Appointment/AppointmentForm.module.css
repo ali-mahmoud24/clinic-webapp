@@ -1,0 +1,34 @@
+h2 {
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+
+.card {
+  min-height: 300px;
+  box-shadow: none;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+  margin-top: 14rem;
+}
+
+.actions button {
+  margin: 0 0.5rem;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+.actions button:first-child {
+  text-transform: capitalize;
+  background-color: transparent;
+  border: 1px solid var(--clr-grey-1);
+  color: var(--clr-grey-1);
+}
+.actions button:first-child:hover {
+  background-color: var(--clr-grey-10);
+}

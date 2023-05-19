@@ -1,0 +1,28 @@
+.header {
+  background-color: var(--clr-white);
+  box-shadow: var(--dark-shadow);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  padding: 1rem 2rem;
+}
+
+.nav-toggle {
+  background: transparent;
+  border: transparent;
+  font-size: 1.5rem;
+  color: var(--clr-primary-5);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.nav-toggle:hover {
+  transform: scale(1.2);
+}
+
+
+@media screen and (min-width: 992px) {
+  .nav-toggle {
+    display: none;
+  }
+}
